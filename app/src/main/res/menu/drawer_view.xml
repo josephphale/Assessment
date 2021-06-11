@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:padding="16dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+       /> >
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+
+        <item android:title="OTHER">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/about_us"
+                    android:icon="@drawable/aboutus"
+                    android:title="About_us " />
+
+
+
+
+            </group>
+        </menu>
+    </item>
+
+
+    </group>
+</menu>
+
